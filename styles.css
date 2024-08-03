@@ -1,0 +1,171 @@
+*{
+    
+    scroll-behavior: smooth;
+}
+
+:root{
+    font-size: 10px;
+}
+body{
+    margin-top: 100px;
+    align-items: center;
+    
+    font-family: Lato, sans-serif;
+    box-sizing: border-box;
+    
+    
+}
+
+.page-wrapper{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    top:0px;
+    left: 0px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    justify-content: space-between;
+    height: 100px;
+    margin: 0;
+    
+    
+}
+
+#header-img{
+    width: auto;
+    height: 100px;
+    margin-left: 20px;
+    
+}
+
+#nav-bar{
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    border-color: red ;
+    margin-right: 8px;
+
+    
+}
+
+#nav-bar ul{
+    display: flex;
+    list-style-type: none;   
+    padding: 0;
+    justify-content: space-around;
+    margin: auto 0;
+
+}
+
+
+
+h1:first-of-type{
+    text-align: center;
+    font-size: 4rem;
+}
+
+#form{
+    justify-content: center;
+}
+#form input{
+    display: block;
+    margin: 10px auto;
+}
+
+#submit{
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 2rem;
+    height: 50px;
+    transition: all 0.8s;
+    height: 5rem;
+    border-radius: 10px;
+    border: transparent;
+}
+
+#submit:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+
+#email{
+    max-width: 500px;
+    height: 2.5rem;
+    width: 70vw;
+    
+}
+
+
+iframe{
+   
+    width: 90%;
+    max-width: 650px;
+    height: 300px;
+}
+
+.video-wrapper #video{
+    display: block;
+    margin: 40px auto;
+}
+
+
+
+.description h2{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: -6px;
+    font-size: 2.8rem;
+
+}
+
+.description p{
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+#Pricing{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.8rem;
+    
+}
+.product{
+    border: solid 1px;
+    width: calc(100%/3);
+    margin: 10px;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.btn{
+    background-color: yellow;
+    
+    margin: 10px 0;
+    font-size: 2.6rem;
+    text-align: center;
+    padding: 0.9rem;
+    transition: all 0.8s;
+    border-radius: 10px;
+    border: transparent;
+}
+
+.btn:hover{
+    
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black
+}
