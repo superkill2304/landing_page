@@ -54,6 +54,7 @@ body{
     display: flex;
     list-style-type: none;   
     padding: 0;
+    
     justify-content: space-around;
     margin: auto 0;
 
@@ -172,5 +173,31 @@ iframe{
 
 .nav-link a{
     text-decoration: none;
-    color: black
+    color: black;
+    cursor: pointer;
+
+}
+
+.footer{
+    margin-top: 3.5rem;
+}
+.footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    
+    margin: 0;
+}
+
+.footer li{
+    padding: 0 10px;
+    padding-bottom: 0 ;
+    cursor: pointer;
+}
+
+.footer span{
+    display: block;
+    color: gray;
+    font-size: 1.6rem;
+    text-align: right;
 }
