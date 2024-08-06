@@ -33,7 +33,7 @@ body{
 }
 
 #header-img{
-    width: auto;
+    width: 100px;
     height: 100px;
     margin-left: 20px;
     
@@ -41,8 +41,6 @@ body{
 
 #nav-bar{
     font-size: 1.8rem;
-    display: flex;
-    flex-direction: column;
     width: 40vw;
     border-color: red ;
     margin-right: 8px;
@@ -171,7 +169,7 @@ iframe{
     cursor: pointer;
 }
 
-.nav-link a{
+.nav-link {
     text-decoration: none;
     color: black;
     cursor: pointer;
@@ -200,4 +198,32 @@ iframe{
     color: gray;
     font-size: 1.6rem;
     text-align: right;
+}
+
+@media (width <= 500px){
+    body{
+        
+        top: 180px;
+    }
+
+    #header{
+        flex-direction: column;
+        align-items: center;
+        height: unset;
+    }
+
+    #header ul{
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Pricing{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product{
+        width: 90%;
+    }
 }
